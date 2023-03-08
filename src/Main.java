@@ -34,6 +34,4 @@ public class Main {
         System.out.println("Кількість собак: " + Animals.getDogsCount());
         System.out.println("Загальна кількість тварин: " + Animals.getAnimalsCount());
     }
-
-
 }
