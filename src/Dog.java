@@ -1,7 +1,6 @@
 import java.util.Objects;
 
 public class Dog extends Animal {
-
     private static int dogsCount;
     private final int maxRunMeters = 500;
     private final int maxSwimMeters = 10;
