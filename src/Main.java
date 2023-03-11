@@ -1,11 +1,11 @@
 public class Main {
 
     public static void main(String[] args) {
-        Animals dogCommander = new Dog("Командер");
-        Animals dogPrivate = new Dog("Рядовий");
+        Animal dogCommander = new Dog("Командер");
+        Animal dogPrivate = new Dog("Рядовий");
 
-        Animals catPretty = new Cat("Гарний");
-        Animals catUki = new Cat("Юкі");
+        Animal catPretty = new Cat("Гарний");
+        Animal catUki = new Cat("Юкі");
 
         System.out.println();
 
@@ -19,7 +19,7 @@ public class Main {
 
         System.out.println();
 
-        System.out.println(catPretty.run(80));
+        System.out.println(catPretty.run(0));
         System.out.println(catPretty.swim(20));
 
         System.out.println();
@@ -29,8 +29,8 @@ public class Main {
 
         System.out.println();
 
-        System.out.println("Кількість котів: " + Animals.getCatsCount());
-        System.out.println("Кількість собак: " + Animals.getDogsCount());
-        System.out.println("Загальна кількість тварин: " + Animals.getAnimalsCount());
+        System.out.println("Кількість котів: " + Cat.getCatsCount());
+        System.out.println("Кількість собак: " + Dog.getDogsCount());
+        System.out.println("Загальна кількість тварин: " + Animal.getAnimalsCount());
     }
 }
