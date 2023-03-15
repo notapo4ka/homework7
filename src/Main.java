@@ -14,7 +14,7 @@ public class Main {
 
         System.out.println();
 
-        System.out.println(dogPrivate.run(550));
+        System.out.println(dogPrivate.run(-1));
         System.out.println(dogPrivate.swim(15));
 
         System.out.println();
